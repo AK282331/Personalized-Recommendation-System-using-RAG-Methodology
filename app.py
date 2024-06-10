@@ -31,7 +31,7 @@ os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 os.environ["GOOGLE_CSE_ID"] = os.getenv("GOOGLE_CSE_ID")
 
 #Use ChatGroq API to access Mixtral LLM Model
-LLM = ChatGroq(temperature=0.60, groq_api_key="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", model_name="mixtral-8x7b-32768")
+LLM = ChatGroq(temperature=0.60, groq_api_key="*************************", model_name="mixtral-8x7b-32768")
 
 #Creating tools to be used by the agent.
 tools = [tool,tool2,tool3]
